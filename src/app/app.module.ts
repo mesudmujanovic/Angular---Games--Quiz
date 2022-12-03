@@ -7,7 +7,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { QuestionComponent } from './question/question.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { NumberComponent } from './number/number.component';
+import { SkockoComponent } from './skocko/skocko.component';
+
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { NumberComponent } from './number/number.component';
     WelcomeComponent,
     QuestionComponent,
     HeaderComponent,
-    NumberComponent,
+    SkockoComponent
+  
   
    
   ],

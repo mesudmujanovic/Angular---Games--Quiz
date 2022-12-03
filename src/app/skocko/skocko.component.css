@@ -1,0 +1,93 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+img{
+ height: 100%;
+ width: 100%;
+}
+
+.container{
+ width: 600px;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-areas: "title title title " "try-grid result-grid symbol-grid";
+ gap: 10px;
+}
+
+.title
+{
+ grid-area: title;
+ margin: 30px auto 10px;
+ padding: 25px 0;
+ background-color: #000;
+ columns: #fff;
+ text-align: center;
+ text-transform: uppercase;
+ border-radius: 5px;
+}
+
+.tryGrid{
+ grid-area: try-grid;
+}
+
+.resultGrdi{
+ grid-area: result-grid;
+}
+
+.symbolGrid{
+ grid-area: symbol-grid;
+ margin-left: auto;
+ display: grid;
+ gap: 10px;
+ grid-template-columns: repeat(1,50px);
+ cursor: pointer;
+}
+
+
+
+.row{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+width: 100%;
+margin-bottom: 10px;
+padding: 5px;
+border-radius: 10px;
+}
+
+.row > div{
+ width: 50px;
+}
+
+.glavni{
+ display: inline-block;
+margin: 10px 5px;
+width: 30px;
+height: 40px;
+
+border: 2px solid red;
+}
+
+.krug{
+ display: inline-block;
+margin: 10px 5px;
+width: 30px;
+height: 40px;
+
+border: 2px solid red;
+border-radius: 20px ;
+}
+
+.simbol{
+ color: aqua;
+}
+
+img{
+ width: 15px;
+ height: 15px;
+ 
+}
