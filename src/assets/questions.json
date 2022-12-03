@@ -1,0 +1,97 @@
+{
+ "questions":[
+  {
+  "questionText":"Glavni grad Srbije",
+  "options":[{
+  
+  
+  },
+  {"text": "Beograd","correct": true},
+  {"text": "Novi Sad"},
+  {"text": "Nis"}
+ ],
+ "explanation":"Ts use a colon (:) to seperate the property name from the propery type"
+ },
+  {
+  "questionText":"Glavni grad Nemacke",
+  "options":[{
+   
+   
+  },
+  {"text": "Berlin","correct": true},
+  {"text": "Minhen"},
+  {"text": "Frankfurt"}
+ ],
+ "explanation":"Ts use a colon (:) to seperate the property name from the propery type"
+ },
+  {
+  "questionText":"Glavni grad Turske",
+  "options":[{
+
+  },
+  {"text": "Ankara","correct": true},
+  {"text": "Istanbul"},
+  {"text": "Efes"}
+ ],
+ "explanation":"Ts use a colon (:) to seperate the property name from the propery type"
+ },
+  {
+  "questionText":"Koliko slova ima aybuka",
+  "options":[{
+
+  
+  },
+  {"text": "29"},
+  {"text": "28"},
+  {"text": "30","correct": true}
+ ],
+ "explanation":"Ts use a colon (:) to seperate the property name from the propery type"
+ },
+  {
+  "questionText":"Koji je najbolji JS framework",
+  "options":[{
+
+  },
+  {"text": "Angular","correct": true},
+  {"text": "React"},
+  {"text": "Vue"}
+ ]
+ },
+  {
+  "questionText":"Da li ce Mesud dobiti posao u Nemackoj firmi posle prakse",
+  "options":[{
+
+   
+  },
+  {"text": "da","correct": true},
+  {"text": "da","correct": true},
+  {"text": "da","correct": true}
+ ],
+ "explanation":"Ts use a colon (:) to seperate the property name from the propery type"
+ },
+  {
+  "questionText":"Najbolji backend framework",
+  "options":[{
+  
+   
+  },
+  {"text": "Spring-boot","correct": true},
+  {"text": "ExpresJs"},
+  {"text": "pyton"}
+ ],
+ "explanation":"Ts use a colon (:) to seperate the property name from the propery type"
+ },
+  {
+  "questionText":"U koji jezik je ovo napisano",
+  "options":[{
+   
+  
+  },
+  {"text": "Angular","correct": true},
+  {"text": "React"},
+  {"text": "Vue"}
+ ],
+ "explanation":"Ts use a colon (:) to seperate the property name from the propery type"
+ }
+
+]}
