@@ -8,16 +8,10 @@ img{
  height: 100%;
  width: 100%;
 }
-
-.container{
- width: 600px;
- margin: 0 auto;
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- grid-template-areas: "title title title " "try-grid result-grid symbol-grid";
- gap: 10px;
+.item0{
+ color: yellow;
+ background-color: yellow;
 }
-
 .title
 {
  grid-area: title;

@@ -1,50 +1,40 @@
 
+  <div class="container">
+    <div *ngFor="let trBroj of brojevi" class="row">
+      <div *ngFor="let item of trenutni[trBroj]" style="border:1px solid black;">
+        {{mapToSign(item)}}
+         
+      </div>
 
-<div class="container">
- <div class="title">
-  <h1>skocko</h1>
- </div>
+      <div  *ngFor="let item of trenutniRezultat[trBroj]" style="border:1px solid black;">
+        
+        <div   *ngIf="item===0">  
+0
+             </div>
 
+        <div *ngIf="item===1">
+1
+        </div>
+        
+        <div *ngIf="item===2">
+   2
+        </div>
 
-<div class="tryGrid">
-<div>
-<div class="glavni"></div>
-<div class="glavni"></div>
-<div class="glavni"></div>
-<div class="glavni"></div>
-</div>
+      </div>
+    </div>
+  </div>
 
-</div>
-
-
-
-
-
-<div class="resultGrid">
- <div>
-<div class="krug"></div>
-<div class="krug"></div>
-<div class="krug"></div>
-<div class="krug"></div>
-</div>
-
-</div>
-
-
-
-
-
-<div class="symbolGrid">
- <div>
-<div class="simbol"><img src="../assets/image/pik.jpg" alt="" id="pik"></div>
-<div class="simbol"><img src="../assets/image/skocko.png" alt="" id="skocko"></div>
-<div class="simbol"><img src="../assets/image/sova.jpg" alt="" id="sova"></div>
-<div class="simbol"><img src="../assets/image/srce.jpg" alt="" id="srce"></div>
-<div class="simbol"><img src="../assets/image/tref.jpg" alt="" id="tref"></div>
-<div class="simbol"><img src="../assets/image/zvezda.jpg" alt="" id="zvezda"></div>
-</div>
-</div>
+  <div class="container" style="width:100%">
+    <div class="row" style="background-color: red;width:100%;">
+      <div *ngFor="let symb of symbol"  class="col-2">
+        
+          <button  (click)="popuniTabelu(symb)">{{symb.name}}  </button>
+      
+      </div>
+    </div>
+  </div> 
 
 
+  
+    
 
-</div>
