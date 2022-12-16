@@ -2,10 +2,8 @@
  "questions":[
   {
   "questionText":"Glavni grad Srbije",
-  "options":[{
-  
-  
-  },
+
+  "options":[{},
   {"text": "Beograd","correct": true},
   {"text": "Novi Sad"},
   {"text": "Nis"}

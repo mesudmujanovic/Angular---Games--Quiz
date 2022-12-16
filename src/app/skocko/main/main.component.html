@@ -1,0 +1,25 @@
+<div class="main-wraper">
+
+
+
+  <div class="start-game-wrapper">
+    <app-start-game [resultFieldNumber]="  resultFieldNumber" [gameSymbolsArr]="gameSymbolsArrMainData"
+      (generateResultEvent)="generateResultHandler($event)"></app-start-game>
+  </div>
+
+  <div class="guess-list-wraper">
+    <app-gues-list [finalResult]="finalResult" [guessListArr]="guessListArr"></app-gues-list>
+  </div>
+
+
+  <div class="guess-input-wraper">
+    <app-gues-input [resultFieldNumber]="  resultFieldNumber" [gameSymbolsArr]="gameSymbolsArrMainData"
+      (submitGuesEvent)="submitGuesHandle($event)">
+
+    </app-gues-input>
+  </div>
+
+
+</div>
+
+<button class="btn btn-primary" routerLink="/mynumber">Start next quiz</button>

@@ -1,0 +1,50 @@
+<div class="guess-input-wrapper">
+ <div class="current-guess-container">
+  <div *ngFor="let guessSymbol of currentGuess">
+   <div>{{guessSymbol}}</div>
+  </div>
+ </div>
+ <div class="symbols-container">
+  <div class="simb" *ngFor="let symbols of gameSymbolsArr">
+   <div (click)="apentSibmolToGues(symbols.id)">
+    {{symbols.id}}
+
+
+   </div>
+  </div>
+  <button (click)="submitGues()">Gues</button>
+ </div>
+
+
+</div>
+
+<div>
+ <hr>
+ 123456 is sign.
+ You have 5 try for good combination number.
+ choise four number and click Gues
+ ---
+ choiseNumber (1,2,3,4)
+ finalCombination (1,3,2,5)
+ yourResult is (2,1,1,0) === number 2 is good place and good sign, number 1 === good sign only but not good place, and
+ number 0 === non-exictent
+ you win (2,2,2,2)
+ <span>
+  <hr>
+  "guess": [ "1", "1", "2", "2" ], "guesMatch": [ 2, 2, 0, 0 ] },
+  <hr>
+  "guess": [ "2", "2", "2", "2" ], "guesMatch": [ 0, 0, 0, 0 ] },
+  <hr>
+  "guess": [ "1", "1", "4", "4" ], "guesMatch": [ 2, 2, 2, 0 ] },
+  <hr>
+  "guess": [ "1", "1", "4", "5" ], "guesMatch": [ 2, 2, 2, 0 ] },
+  <hr>
+  "guess": [ "1", "1", "4", "6" ], "guesMatch": [ 2, 2, 2, 2 ] },
+  <hr>
+  "guesMatch": [ 2, 2, 2, 2 ] }, WIN WIN WIN
+  <hr>
+  1 2 3 4 5 6 GUES
+ </span>
+
+
+</div>

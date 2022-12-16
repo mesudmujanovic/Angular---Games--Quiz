@@ -1,0 +1,15 @@
+
+.current-guess-container{
+ display: flex;
+}
+.symbols-container{
+ 
+ display: flex;
+cursor: pointer;
+}
+
+.simb{
+ margin: 5px;
+ margin-left: 5px;
+}
+

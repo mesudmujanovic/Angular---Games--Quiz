@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SkockoComponent } from './skocko.component';
+import { GuesInputComponent } from './gues-input.component';
 
-describe('SkockoComponent', () => {
-  let component: SkockoComponent;
-  let fixture: ComponentFixture<SkockoComponent>;
+describe('GuesInputComponent', () => {
+  let component: GuesInputComponent;
+  let fixture: ComponentFixture<GuesInputComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SkockoComponent ]
+      declarations: [ GuesInputComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SkockoComponent);
+    fixture = TestBed.createComponent(GuesInputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
